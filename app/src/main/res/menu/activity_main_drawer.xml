@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_battery"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Battery status" />
+        <item
+            android:id="@+id/nav_power"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Power Status" />
+        <item
+            android:id="@+id/nav_screen"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Screen status" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Camera Status" />
+    </group>
+
+
+</menu>
